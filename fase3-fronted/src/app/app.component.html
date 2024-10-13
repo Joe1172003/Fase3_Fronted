@@ -1,5 +1,34 @@
 
 
-<app-graph></app-graph>
-<app-real-time-data></app-real-time-data>
+    <div class="row m-0">
+        <div class="col-6">
+            <div class="row">
+                <div class="col-12 p-3 bg-primary">
+                    <app-graph></app-graph>
+                </div>
+                <div class="col-12 p-4 bg-light rounded-top">
+                    <app-data-projection></app-data-projection>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <app-real-time-data></app-real-time-data>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 p-3">
+                    <app-real-time-data></app-real-time-data>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 p-3">
+                    <app-real-time-data></app-real-time-data>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
 <router-outlet />
